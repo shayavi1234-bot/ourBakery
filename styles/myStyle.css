@@ -3,9 +3,10 @@ body {
     direction: rtl;
     font-family: 'Rubik', sans-serif;
     background-color: #fdfbf7;
-    min-height: 89vh;
+    min-height: 100vh;   
     position: relative;
-    padding-bottom: 80px;
+    padding-bottom: 80px;  
+    width: 100%;
 }
 /* רקע עמוד הפתיחה */
 body.homepage{
