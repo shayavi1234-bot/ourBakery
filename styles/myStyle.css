@@ -583,7 +583,7 @@ footer a:hover {
 }
 
 .submit-btn:active, .cta-button:active {
-    transform: scale(0.98); /* אפקט לחיצה קטן */
+    transform: scale(0.98);
 }
 
 /*  איזור המידע (צד ימין)  */
@@ -596,7 +596,7 @@ footer a:hover {
 }
 
 .info-box {
-    background-color: #f5f2eb; /* רקע הבז' החם שלכם */
+    background-color: #f5f2eb;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
