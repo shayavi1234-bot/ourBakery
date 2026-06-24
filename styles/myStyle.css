@@ -310,12 +310,24 @@ footer a:hover {
     object-fit: cover;
     box-shadow : 0 4px 4px rgba(0,0,0,0.4);
 }
+
 .goalSite ul {
-    list-style-image: url("../photos/wheaR4.png");
-    margin: 0 160px;
+    list-style: none;      
+    padding: 0;
+    margin: 0 150px;        
     line-height: 1.4;
     text-align: right;
 }
+
+.goalSite ul li {
+    margin: 10px 0;
+    padding-right: 60px;
+    background-image: url("../photos/wheaR.png"); 
+    background-repeat: no-repeat;
+    background-position: right center;     
+    background-size: 55px auto;               
+}
+
 .goalSite ul li a, #siteMap ul li a {
     text-decoration: none;
     font-size: 18px;
@@ -334,10 +346,6 @@ footer a:hover {
 }
 .goalSite ul li:nth-child(even) a:hover{
     color: #dfd1a0
-}
-
-.goalSite ul li{
-    margin: 5px;
 }
 
 #hit-logo-telem {
