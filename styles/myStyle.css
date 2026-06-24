@@ -452,12 +452,14 @@ footer a:hover {
 
 /*עיצוב עמוד הסיפור שלנו */
 #ourStoryPage .story-content img{
-    position: relative; 
-    height: 300px;
+   position: relative;
     float: left;
-    margin: 0 2% 0 100px;
+    width: 35%;         
+    height: auto;         
+    max-width: 350px;     
+    margin: 10px 3% 20px 7%;
     object-fit: cover;
-    box-shadow : 0 4px 4px rgba(0,0,0,0.4);
+    box-shadow: 0 4px 4px rgba(0,0,0,0.4);
 }
     
 #picsBakery{
@@ -649,10 +651,10 @@ footer a:hover {
 
 /*עיצוב עמוד הקרקרים */
 #crackersSection {
-    max-width: 100%;
+    max-width: 1300px;
+    margin: 40px auto; 
     text-align: center;
-    margin-top: 40px;
-
+    width: 95%;
 }
 
 #crackersSection .crackerBox{
